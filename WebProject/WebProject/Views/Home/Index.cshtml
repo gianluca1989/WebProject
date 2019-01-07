@@ -1,0 +1,106 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<div class="container-fluid" style="padding-top: 20px;">
+    <div class="row">
+        <div class="col-xs-18 col-md-12">
+            @(Html.Kendo().Grid<WebProject.Models.Order>()
+                .Name("grid")
+                .Columns(columns =>
+                {
+                    columns.Bound(p => p.OrderID).Hidden().Filterable(false);
+                    columns.Bound(p => p.Freight);
+                    columns.Bound(p => p.OrderDate).Format("{0:dd/MM/yyyy}").Sortable(true);
+                    columns.Bound(p => p.ShipName);
+                    columns.Bound(p => p.ShipCity);
+                    columns.Command(command => { command.Edit(); command.Destroy(); }).Width(172);
+
+                })
+                .ToolBar(toolbar => { toolbar.Create(); toolbar.Excel(); toolbar.Pdf(); })
+                .Editable(editable => editable.Mode(GridEditMode.InLine))
+                .Pageable()
+                .Sortable()
+                .Scrollable()
+                .Filterable()
+                .Excel(excel =>excel
+                    .FileName("Excel.xlsx")
+                    .Filterable(true)
+                    .AllPages(true)
+                    .ProxyURL(Url.Action("Orders_Export_Excel", "Excel"))
+                                                                    
+                )
+                .Pdf(pdf => pdf
+                    .AllPages()
+                    .AvoidLinks()
+                    .PaperSize("A4")
+                    .Scale(0.8)
+                    .Margin("2cm", "1cm", "1cm", "1cm")
+                    .Landscape()
+                    .RepeatHeaders()
+                    .TemplateId("page-template")
+                    .FileName("Pdf.pdf")
+                    .ProxyURL(Url.Action("Orders_Export_Pdf", "Grid"))
+                    )
+                .HtmlAttributes(new { style = "height:550px;" })
+                .DataSource(dataSource => dataSource
+                .Ajax()
+                .PageSize(20)
+
+                .Events(events => events.Error("error_handler"))
+                .Model(model => model.Id(p => (p.OrderID)))
+                .Create(update => update.Action("Orders_Create", "Grid"))
+                .Read(read => read.Action("Orders_Read", "Grid"))
+                .Update(update => update.Action("Orders_Update", "Grid"))
+                .Destroy(update => update.Action("Orders_Destroy", "Grid"))
+                )
+            )
+
+            <div class="col-xs-10 col-md-3">
+                <h2>&nbsp;</h2>
+
+            </div>
+
+
+            <script>
+                var grid = $("#grid").data("kendoGrid");
+            </script>
+
+            <script type="text/javascript">
+
+                function error_handler(e) {
+                    if (e.errors) {
+                        var message = "Errors:\n";
+                        $.each(e.errors, function (key, value) {
+                            if ('errors' in value) {
+                                $.each(value.errors, function () {
+                                    message += this + "\n";
+                                });
+                            }
+                        });
+                        alert(message);
+                    }
+                }
+            </script>
+        </div>
+    </div>
+</div>
+
+<style>
+    .k-button.k-button-icontext.k-grid-edit {
+        background-color: forestgreen;
+        color: white;
+    }
+
+    .k-button.k-button-icontext.k-grid-delete {
+        background-color: cornflowerblue;
+        color: white;
+    }
+
+    .k-button.k-button-icontext.k-grid-cancel {
+        background-color: red;
+        color: white;
+    }
+</style>
+

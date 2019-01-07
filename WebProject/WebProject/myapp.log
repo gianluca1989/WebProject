@@ -1,0 +1,292 @@
+2018-12-07 10:04:58,083 [11] ERROR WebProject.Controllers.UsersController - Error in Class: <Login>d__7 function: MoveNext.
+Failed to login. Missing fields
+2018-12-07 10:05:06,101 [3] ERROR WebProject.Controllers.UsersController - Error in Class: <Login>d__7 function: MoveNext.
+Failed to login. Username or password wrong
+2018-12-07 10:05:19,546 [8] INFO WebProject.Controllers.UsersController - Info in Class: <Login>d__7 function: MoveNext.
+You are logging
+2018-12-07 10:05:19,598 [11] INFO WebProject.Controllers.HomeController - Info in Class: HomeController function: About.
+call the Home page
+2018-12-07 10:05:21,760 [11] INFO WebProject.Controllers.HomeController - Info in Class: HomeController function: Index.
+call the Table page
+2018-12-07 10:05:22,742 [12] INFO WebProject.Controllers.GridController - Info in Class: GridController function: Orders_Read.
+Items found
+2018-12-07 10:05:35,083 [11] INFO WebProject.Controllers.GridController - Info in Class: GridController function: Orders_Update.
+Updated element
+2018-12-07 10:05:38,168 [11] INFO WebProject.Controllers.HomeController - Info in Class: HomeController function: Index.
+call the Table page
+2018-12-07 10:05:39,520 [11] INFO WebProject.Controllers.GridController - Info in Class: GridController function: Orders_Read.
+Items found
+2018-12-07 10:05:47,101 [11] INFO WebProject.Controllers.GridController - Info in Class: GridController function: Orders_Destroy.
+Deleted item
+2018-12-07 10:05:56,632 [3] INFO WebProject.Controllers.HomeController - Info in Class: HomeController function: Index.
+call the Table page
+2018-12-07 10:05:57,455 [17] INFO WebProject.Controllers.GridController - Info in Class: GridController function: Orders_Read.
+Items found
+2018-12-07 10:06:19,593 [11] INFO WebProject.Controllers.GridController - Info in Class: GridController function: Orders_Create.
+Added element
+2018-12-07 10:06:22,362 [17] INFO WebProject.Controllers.HomeController - Info in Class: HomeController function: Index.
+call the Table page
+2018-12-07 10:06:23,147 [14] INFO WebProject.Controllers.GridController - Info in Class: GridController function: Orders_Read.
+Items found
+2018-12-07 10:06:33,434 [17] INFO WebProject.Controllers.UsersController - Info in Class: <Logout>d__8 function: MoveNext.
+You are logout
+2018-12-07 10:07:15,105 [4] ERROR WebProject.Controllers.UsersController - Error in Class: <Register>d__10 function: MoveNext.
+Failed to register, the two passwords do not match
+2018-12-07 10:07:23,673 [20] INFO WebProject.Controllers.UsersController - Info in Class: <Register>d__10 function: MoveNext.
+You are register
+2018-12-07 10:07:29,465 [20] INFO WebProject.Controllers.UsersController - Info in Class: <Login>d__7 function: MoveNext.
+You are logging
+2018-12-07 10:07:29,482 [21] INFO WebProject.Controllers.HomeController - Info in Class: HomeController function: About.
+call the Home page
+2018-12-07 10:07:31,387 [4] INFO WebProject.Controllers.HomeController - Info in Class: HomeController function: Index.
+call the Table page
+2018-12-07 10:07:31,918 [21] INFO WebProject.Controllers.GridController - Info in Class: GridController function: Orders_Read.
+Items found
+2018-12-07 10:07:43,552 [4] INFO WebProject.Controllers.UsersController - Info in Class: <Logout>d__8 function: MoveNext.
+You are logout
+2018-12-07 10:23:56,408 [9] ERROR WebProject.Controllers.UsersController - Error in Class: <Login>d__7 function: MoveNext.
+Failed to login. Missing fields
+2018-12-07 10:24:01,176 [8] ERROR WebProject.Controllers.UsersController - Error in Class: <Register>d__10 function: MoveNext.
+Failed to register, Probably some fields are empty or wrong
+2018-12-07 10:24:25,652 [11] ERROR WebProject.Controllers.UsersController - Error in Class: <Register>d__10 function: MoveNext.
+E-Mail already registered
+2018-12-07 10:24:38,795 [11] ERROR WebProject.Controllers.UsersController - Error in Class: <Register>d__10 function: MoveNext.
+Failed to register, the two passwords do not match
+2018-12-07 10:24:47,122 [11] ERROR WebProject.Controllers.UsersController - Error in Class: <Register>d__10 function: MoveNext.
+Failed to register, the two passwords do not match
+2018-12-07 10:24:52,771 [11] ERROR WebProject.Controllers.UsersController - Error in Class: <Register>d__10 function: MoveNext.
+Failed to register, Probably some fields are empty or wrong
+2018-12-07 10:25:06,002 [13] ERROR WebProject.Controllers.UsersController - Error in Class: <Register>d__10 function: MoveNext.
+Could not create new user
+2018-12-07 10:25:12,860 [13] ERROR WebProject.Controllers.UsersController - Error in Class: <Register>d__10 function: MoveNext.
+Could not create new user
+2018-12-07 10:25:39,025 [24] INFO WebProject.Controllers.UsersController - Info in Class: <Register>d__10 function: MoveNext.
+You are register
+2018-12-07 10:25:48,266 [25] INFO WebProject.Controllers.UsersController - Info in Class: <Login>d__7 function: MoveNext.
+You are logging
+2018-12-07 10:25:48,315 [25] INFO WebProject.Controllers.HomeController - Info in Class: HomeController function: About.
+call the Home page
+2018-12-07 10:25:57,212 [11] INFO WebProject.Controllers.HomeController - Info in Class: HomeController function: Index.
+call the Table page
+2018-12-07 10:25:58,227 [24] INFO WebProject.Controllers.GridController - Info in Class: GridController function: Orders_Read.
+Items found
+2018-12-07 10:27:38,580 [15] INFO WebProject.Controllers.HomeController - Info in Class: HomeController function: Contact.
+call the Contact page
+2018-12-07 10:29:30,122 [8] INFO WebProject.Controllers.HomeController - Info in Class: HomeController function: Contact.
+call the Contact page
+2018-12-07 10:30:54,898 [12] INFO WebProject.Controllers.HomeController - Info in Class: HomeController function: Contact.
+call the Contact page
+2018-12-07 10:31:38,864 [20] INFO WebProject.Controllers.HomeController - Info in Class: HomeController function: Contact.
+call the Contact page
+2018-12-07 10:32:02,733 [20] INFO WebProject.Controllers.HomeController - Info in Class: HomeController function: Contact.
+call the Contact page
+2018-12-07 10:33:04,619 [26] INFO WebProject.Controllers.HomeController - Info in Class: HomeController function: Contact.
+call the Contact page
+2018-12-07 10:33:36,505 [26] INFO WebProject.Controllers.HomeController - Info in Class: HomeController function: Contact.
+call the Contact page
+2018-12-07 10:33:40,348 [26] INFO WebProject.Controllers.HomeController - Info in Class: HomeController function: About.
+call the Home page
+2018-12-07 10:34:26,636 [34] INFO WebProject.Controllers.HomeController - Info in Class: HomeController function: About.
+call the Home page
+2018-12-07 10:34:30,732 [28] INFO WebProject.Controllers.HomeController - Info in Class: HomeController function: Contact.
+call the Contact page
+2018-12-07 10:34:42,206 [28] INFO WebProject.Controllers.UsersController - Info in Class: <Logout>d__8 function: MoveNext.
+You are logout
+2018-12-07 10:42:05,830 [48] INFO WebProject.Controllers.UsersController - Info in Class: <Login>d__7 function: MoveNext.
+You are logging
+2018-12-07 10:42:05,911 [48] INFO WebProject.Controllers.HomeController - Info in Class: HomeController function: About.
+call the Home page
+2018-12-07 10:42:16,965 [46] INFO WebProject.Controllers.HomeController - Info in Class: HomeController function: Index.
+call the Table page
+2018-12-07 10:42:18,976 [48] INFO WebProject.Controllers.GridController - Info in Class: GridController function: Orders_Read.
+Items found
+2018-12-07 10:42:20,390 [48] INFO WebProject.Controllers.HomeController - Info in Class: HomeController function: About.
+call the Home page
+2018-12-07 10:42:22,512 [54] INFO WebProject.Controllers.HomeController - Info in Class: HomeController function: About.
+call the Home page
+2018-12-07 10:42:24,330 [54] INFO WebProject.Controllers.HomeController - Info in Class: HomeController function: Contact.
+call the Contact page
+2018-12-07 10:42:25,433 [55] INFO WebProject.Controllers.HomeController - Info in Class: HomeController function: Index.
+call the Table page
+2018-12-07 10:42:25,950 [54] INFO WebProject.Controllers.GridController - Info in Class: GridController function: Orders_Read.
+Items found
+2018-12-07 10:42:53,327 [54] INFO WebProject.Controllers.GridController - Info in Class: GridController function: Orders_Update.
+Updated element
+2018-12-07 10:43:04,126 [55] INFO WebProject.Controllers.GridController - Info in Class: GridController function: Orders_Update.
+Updated element
+2018-12-07 10:43:17,900 [58] INFO WebProject.Controllers.GridController - Info in Class: GridController function: Orders_Update.
+Updated element
+2018-12-07 10:43:23,946 [54] INFO WebProject.Controllers.GridController - Info in Class: GridController function: Orders_Read.
+Items found
+2018-12-07 10:43:35,456 [58] INFO WebProject.Controllers.GridController - Info in Class: GridController function: Orders_Read.
+Items found
+2018-12-07 10:43:35,604 [54] INFO WebProject.Controllers.GridController - Info in Class: GridController function: Orders_Read.
+Items found
+2018-12-07 10:44:47,233 [63] INFO WebProject.Controllers.GridController - Info in Class: GridController function: Orders_Destroy.
+Deleted item
+2018-12-07 10:44:49,272 [64] INFO WebProject.Controllers.HomeController - Info in Class: HomeController function: Index.
+call the Table page
+2018-12-07 10:44:50,577 [64] INFO WebProject.Controllers.GridController - Info in Class: GridController function: Orders_Read.
+Items found
+2018-12-07 10:44:56,937 [64] INFO WebProject.Controllers.UsersController - Info in Class: <Logout>d__8 function: MoveNext.
+You are logout
+2018-12-07 10:45:37,729 [65] ERROR WebProject.Controllers.UsersController - Error in Class: <Register>d__10 function: MoveNext.
+Failed to register, the two passwords do not match
+2018-12-07 10:45:48,274 [70] ERROR WebProject.Controllers.UsersController - Error in Class: <Register>d__10 function: MoveNext.
+Failed to register, Probably some fields are empty or wrong
+2018-12-07 10:46:10,815 [75] INFO WebProject.Controllers.UsersController - Info in Class: <Register>d__10 function: MoveNext.
+You are register
+2018-12-07 10:46:27,068 [75] INFO WebProject.Controllers.UsersController - Info in Class: <Login>d__7 function: MoveNext.
+You are logging
+2018-12-07 10:46:27,090 [72] INFO WebProject.Controllers.HomeController - Info in Class: HomeController function: About.
+call the Home page
+2018-12-07 10:46:32,267 [75] INFO WebProject.Controllers.UsersController - Info in Class: <Logout>d__8 function: MoveNext.
+You are logout
+2018-12-07 10:49:20,018 [8] INFO WebProject.Controllers.UsersController - Info in Class: <Login>d__7 function: MoveNext.
+You are logging
+2018-12-07 10:49:20,128 [8] INFO WebProject.Controllers.HomeController - Info in Class: HomeController function: About.
+call the Home page
+2018-12-07 10:49:29,143 [9] INFO WebProject.Controllers.HomeController - Info in Class: HomeController function: Index.
+call the Table page
+2018-12-07 10:49:30,049 [12] INFO WebProject.Controllers.GridController - Info in Class: GridController function: Orders_Read.
+Items found
+2018-12-07 10:49:34,212 [8] INFO WebProject.Controllers.UsersController - Info in Class: <Logout>d__8 function: MoveNext.
+You are logout
+2018-12-07 10:49:43,278 [15] INFO WebProject.Controllers.HomeController - Info in Class: HomeController function: About.
+call the Home page
+2018-12-07 10:52:02,185 [8] INFO WebProject.Controllers.UsersController - Info in Class: <Login>d__7 function: MoveNext.
+You are logging
+2018-12-07 10:52:02,303 [8] INFO WebProject.Controllers.HomeController - Info in Class: HomeController function: About.
+call the Home page
+2018-12-07 10:52:04,667 [8] INFO WebProject.Controllers.HomeController - Info in Class: HomeController function: Index.
+call the Table page
+2018-12-07 10:52:05,528 [3] INFO WebProject.Controllers.GridController - Info in Class: GridController function: Orders_Read.
+Items found
+2018-12-07 10:52:23,509 [8] INFO WebProject.Controllers.GridController - Info in Class: GridController function: Orders_Create.
+Added element
+2018-12-07 10:52:31,969 [4] INFO WebProject.Controllers.GridController - Info in Class: GridController function: Orders_Update.
+Updated element
+2018-12-07 10:52:36,041 [9] INFO WebProject.Controllers.HomeController - Info in Class: HomeController function: Index.
+call the Table page
+2018-12-07 10:52:36,780 [9] INFO WebProject.Controllers.GridController - Info in Class: GridController function: Orders_Read.
+Items found
+2018-12-07 10:52:40,474 [9] INFO WebProject.Controllers.GridController - Info in Class: GridController function: Orders_Destroy.
+Deleted item
+2018-12-07 10:52:42,662 [3] INFO WebProject.Controllers.HomeController - Info in Class: HomeController function: Index.
+call the Table page
+2018-12-07 10:52:43,323 [3] INFO WebProject.Controllers.GridController - Info in Class: GridController function: Orders_Read.
+Items found
+2018-12-07 10:52:46,374 [3] INFO WebProject.Controllers.UsersController - Info in Class: <Logout>d__8 function: MoveNext.
+You are logout
+2018-12-07 10:57:13,095 [3] INFO WebProject.Controllers.UsersController - Info in Class: <Login>d__7 function: MoveNext.
+You are logging
+2018-12-07 10:57:13,237 [3] INFO WebProject.Controllers.HomeController - Info in Class: HomeController function: About.
+call the Home page
+2018-12-07 10:57:15,141 [4] INFO WebProject.Controllers.HomeController - Info in Class: HomeController function: Index.
+call the Table page
+2018-12-07 10:57:16,250 [8] INFO WebProject.Controllers.GridController - Info in Class: GridController function: Orders_Read.
+Items found
+2018-12-07 10:57:20,887 [9] INFO WebProject.Controllers.GridController - Info in Class: GridController function: Orders_Update.
+Updated element
+2018-12-07 10:57:22,584 [9] INFO WebProject.Controllers.HomeController - Info in Class: HomeController function: Index.
+call the Table page
+2018-12-07 10:57:23,175 [11] INFO WebProject.Controllers.GridController - Info in Class: GridController function: Orders_Read.
+Items found
+2018-12-07 10:57:32,676 [3] INFO WebProject.Controllers.UsersController - Info in Class: UsersController function: Login.
+You are already authenticated
+2018-12-07 10:57:32,708 [3] INFO WebProject.Controllers.HomeController - Info in Class: HomeController function: About.
+call the Home page
+2018-12-07 10:57:49,262 [11] INFO WebProject.Controllers.UsersController - Info in Class: <Logout>d__8 function: MoveNext.
+You are logout
+2018-12-07 10:59:58,907 [24] INFO WebProject.Controllers.UsersController - Info in Class: <Login>d__7 function: MoveNext.
+You are logging
+2018-12-07 10:59:58,942 [20] INFO WebProject.Controllers.HomeController - Info in Class: HomeController function: About.
+call the Home page
+2018-12-07 11:29:12,598 [45] INFO WebProject.Controllers.UsersController - Info in Class: <Login>d__7 function: MoveNext.
+You are logging
+2018-12-07 11:29:12,630 [45] INFO WebProject.Controllers.HomeController - Info in Class: HomeController function: About.
+call the Home page
+2018-12-07 11:29:14,439 [45] INFO WebProject.Controllers.HomeController - Info in Class: HomeController function: Index.
+call the Table page
+2018-12-07 11:29:14,939 [45] INFO WebProject.Controllers.GridController - Info in Class: GridController function: Orders_Read.
+Items found
+2018-12-07 11:59:43,778 [65] INFO WebProject.Controllers.UsersController - Info in Class: <Login>d__7 function: MoveNext.
+You are logging
+2018-12-07 11:59:43,817 [65] INFO WebProject.Controllers.HomeController - Info in Class: HomeController function: About.
+call the Home page
+2018-12-07 11:59:47,437 [65] INFO WebProject.Controllers.HomeController - Info in Class: HomeController function: Index.
+call the Table page
+2018-12-07 11:59:48,226 [65] INFO WebProject.Controllers.GridController - Info in Class: GridController function: Orders_Read.
+Items found
+2018-12-07 11:59:50,552 [65] INFO WebProject.Controllers.GridController - Info in Class: GridController function: Orders_Read.
+Items found
+2018-12-07 11:59:55,923 [66] INFO WebProject.Controllers.GridController - Info in Class: GridController function: Orders_Read.
+Items found
+2018-12-07 11:59:56,016 [66] INFO WebProject.Controllers.GridController - Info in Class: GridController function: Orders_Read.
+Items found
+2018-12-13 19:14:28,614 [20] ERROR WebProject.Controllers.UsersController - Error in Class: <Register>d__10 function: MoveNext.
+Could not create new user
+2018-12-13 19:14:37,222 [19] INFO WebProject.Controllers.UsersController - Info in Class: <Register>d__10 function: MoveNext.
+You are register
+2018-12-13 19:14:43,699 [19] INFO WebProject.Controllers.UsersController - Info in Class: <Login>d__7 function: MoveNext.
+You are logging
+2018-12-13 19:14:43,722 [8] INFO WebProject.Controllers.HomeController - Info in Class: HomeController function: About.
+call the Home page
+2018-12-13 19:14:45,476 [8] INFO WebProject.Controllers.HomeController - Info in Class: HomeController function: Contact.
+call the Contact page
+2018-12-13 19:14:46,535 [8] INFO WebProject.Controllers.HomeController - Info in Class: HomeController function: Index.
+call the Table page
+2018-12-13 19:14:47,214 [19] INFO WebProject.Controllers.GridController - Info in Class: GridController function: Orders_Read.
+Items found
+2018-12-13 19:14:48,081 [26] INFO WebProject.Controllers.HomeController - Info in Class: HomeController function: About.
+call the Home page
+2018-12-13 19:14:49,215 [19] INFO WebProject.Controllers.HomeController - Info in Class: HomeController function: Index.
+call the Table page
+2018-12-13 19:14:49,596 [8] INFO WebProject.Controllers.GridController - Info in Class: GridController function: Orders_Read.
+Items found
+2018-12-13 19:14:50,306 [8] INFO WebProject.Controllers.UsersController - Info in Class: <Logout>d__8 function: MoveNext.
+You are logout
+2018-12-14 16:32:12,219 [3] ERROR WebProject.Controllers.UsersController - Error in Class: <Login>d__7 function: MoveNext.
+Failed to login. Missing fields
+2018-12-14 20:25:05,632 [11] INFO WebProject.Controllers.UsersController - Info in Class: <Register>d__10 function: MoveNext.
+You are register
+2018-12-14 20:25:16,484 [21] INFO WebProject.Controllers.UsersController - Info in Class: <Login>d__7 function: MoveNext.
+You are logging
+2018-12-14 20:25:16,518 [24] INFO WebProject.Controllers.HomeController - Info in Class: HomeController function: About.
+call the Home page
+2018-12-14 20:25:21,095 [24] INFO WebProject.Controllers.HomeController - Info in Class: HomeController function: Contact.
+call the Contact page
+2018-12-14 20:25:23,302 [17] INFO WebProject.Controllers.HomeController - Info in Class: HomeController function: Index.
+call the Table page
+2018-12-14 20:25:24,683 [17] INFO WebProject.Controllers.GridController - Info in Class: GridController function: Orders_Read.
+Items found
+2018-12-14 20:25:41,907 [22] INFO WebProject.Controllers.GridController - Info in Class: GridController function: Orders_Create.
+Added element
+2018-12-14 20:25:47,238 [17] INFO WebProject.Controllers.HomeController - Info in Class: HomeController function: About.
+call the Home page
+2018-12-14 20:25:51,040 [17] INFO WebProject.Controllers.UsersController - Info in Class: <Logout>d__8 function: MoveNext.
+You are logout
+2018-12-15 19:24:57,245 [14] ERROR WebProject.Controllers.UsersController - Error in Class: <Register>d__10 function: MoveNext.
+Failed to register, the two passwords do not match
+2018-12-15 19:25:34,081 [18] INFO WebProject.Controllers.UsersController - Info in Class: <Register>d__10 function: MoveNext.
+You are register
+2018-12-15 19:25:46,566 [18] INFO WebProject.Controllers.UsersController - Info in Class: <Login>d__7 function: MoveNext.
+You are logging
+2018-12-15 19:25:46,591 [22] INFO WebProject.Controllers.HomeController - Info in Class: HomeController function: About.
+call the Home page
+2018-12-18 11:30:58,829 [16] ERROR WebProject.Controllers.UsersController - Error in Class: <Register>d__10 function: MoveNext.
+Failed to register, the two passwords do not match
+2018-12-18 11:31:14,961 [29] INFO WebProject.Controllers.UsersController - Info in Class: <Register>d__10 function: MoveNext.
+You are register
+2018-12-18 11:31:31,176 [22] INFO WebProject.Controllers.UsersController - Info in Class: <Login>d__7 function: MoveNext.
+You are logging
+2018-12-18 11:31:31,197 [29] INFO WebProject.Controllers.HomeController - Info in Class: HomeController function: About.
+call the Home page
+2018-12-18 11:31:36,066 [29] INFO WebProject.Controllers.HomeController - Info in Class: HomeController function: Index.
+call the Table page
+2018-12-18 11:31:36,923 [22] INFO WebProject.Controllers.GridController - Info in Class: GridController function: Orders_Read.
+Items found
+2018-12-18 11:32:17,918 [19] INFO WebProject.Controllers.GridController - Info in Class: GridController function: Orders_Update.
+Updated element
+2018-12-18 11:32:26,984 [31] INFO WebProject.Controllers.GridController - Info in Class: GridController function: Orders_Read.
+Items found

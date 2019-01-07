@@ -1,0 +1,98 @@
+﻿
+@using WebProject.Autentication
+@model UserDto
+@{
+    ViewData["Title"] = "Autenticate";
+}
+
+<h2 style="color: white">Register</h2>
+<body id="LoginForm">
+    <div class="row">
+        <div class="col-md-4 col-md-offset-3">
+            <div class="login-form">
+                <div class="main-div">
+                    <div class="panel">
+                        <h2>Admin Register</h2>
+                        <p>Please enter your data</p>
+                    </div>
+                    <div class="modal fade" id="Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content ">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel"><strong>Error!</strong></h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body ">
+                                    <label id="error"></label>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <form asp-action="Register" method="post" id="Register">
+                        <div class="form-group">
+                            <label asp-for="FirstName">Name</label>
+                            <input asp-for="FirstName" class="form-control" placeholder="FirstName" />
+                            <span asp-validation-for="FirstName" class="text-warning"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="LastName">Surname</label>
+                            <input asp-for="LastName" class="form-control" placeholder="LastName" />
+                            <span asp-validation-for="LastName" class="text-warning"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Username">Username</label>
+                            <input asp-for="Username" class="form-control" placeholder="Username" id="user"/>
+                            <span asp-validation-for="Username" class="text-warning"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Email">E-Mail</label>
+                            <input asp-for="Email" class="form-control" type="email" placeholder="E-Mail" />
+                            <span asp-validation-for="Email" class="text-warning"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Password">Password</label>
+                            <input asp-for="Password" class="form-control" type="password" placeholder="Password" />
+                            <span asp-validation-for="Password" class="text-warning"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Password2">Reenter Password</label>
+                            <input asp-for="Password2" class="form-control" type="password" placeholder="Password" />
+                            <span asp-validation-for="Password2" class="text-warning"></span>
+                        </div>
+                        <div class="form-group" style="text-align: center;">
+                            <input type="submit" value="Register" class="btn btn-light" style="background-color: blue; width: 130px; height: 55px; color: white" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script>
+    //prevents the page from reloading
+    $('#Register').submit(function (e) {
+
+        e.preventDefault();
+
+        $.ajax({
+            type: 'POST',
+            url: '/Users/Register',
+            data: $(this).serialize(),
+            //save the username in a global variable and redirect to the login page
+            success: function () {
+                localStorage.setItem('myMainKey', $("#user").val());
+                window.location.replace("/Users/Login");
+            },
+            error: function (err) {
+                $("#error").text(err.responseText);
+                $('#Modal').modal('show');
+            }
+        });
+    });
+</script>

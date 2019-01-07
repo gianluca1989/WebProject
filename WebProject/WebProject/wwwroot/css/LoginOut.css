@@ -1,0 +1,86 @@
+﻿body#LoginForm {
+    background-image: url("https://hdwallsource.com/img/2014/9/blur-26347-27038-hd-wallpapers.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 10px;
+}
+
+.form-heading {
+    color: #fff;
+    font-size: 23px;
+}
+
+.panel h2 {
+    color: #444444;
+    font-size: 18px;
+    margin: 0 0 8px 0;
+}
+
+.panel p {
+    color: #777777;
+    font-size: 14px;
+    margin-bottom: 30px;
+    line-height: 24px;
+}
+
+.login-form .form-control {
+    background: #f7f7f7 none repeat scroll 0 0;
+    border: 1px solid #d4d4d4;
+    border-radius: 4px;
+    font-size: 14px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.main-div {
+    background: #ffffff none repeat scroll 0 0;
+    border-radius: 2px;
+    margin: 50px auto 30px;
+    max-width: 150%;
+    padding: 50px 50px 70px 50px;
+    width: 900px;
+}
+
+/*.main-div-Reg {
+    background: #ffffff none repeat scroll 0 0;
+    border-radius: 2px;
+    margin: 50px auto 30px;
+    max-width: 120%;
+    padding: 50px 50px 70px 50px;
+    width: 800px;
+}*/
+
+.login-form .form-group {
+    margin-bottom: 10px;
+}
+
+.login-form {
+    text-align: center;
+}
+
+.forgot a {
+    color: #777777;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.login-form .btn.btn-success {
+    background: #0000ff none repeat scroll 0 0;
+    border-color: #0000ff;
+    color: #ffffff;
+    font-size: 10px;
+    width: 30%;
+    height: 30px;
+    line-height: 30px;
+    padding: 0;
+}
+
+.remember {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.login-form .btn.btn.btn-primary {
+    background: #ff9900 none repeat scroll 0 0;
+}
